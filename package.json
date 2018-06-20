@@ -1,0 +1,33 @@
+{
+  "name": "excel",
+  "version": "1.0.0",
+  "description": "node 读写excel",
+  "main": "index.js",
+  "dependencies": {
+    "excel-export": "^0.5.1",
+    "excel-parser": "^0.2.2",
+    "node-xlrd": "^0.2.4",
+    "node-xlsx": "^0.12.0",
+    "promise": "^8.0.1",
+    "querystring": "^0.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start":"node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awabuda/node-excel.git"
+  },
+  "keywords": [
+    "excel",
+    "读写"
+  ],
+  "author": "cpt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awabuda/node-excel/issues"
+  },
+  "homepage": "https://github.com/awabuda/node-excel#readme"
+}
