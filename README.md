@@ -1,5 +1,10 @@
 # node-excel
 把数据导成excel表格
+拉取代码后
+    npm install 
+修改request.js 里面的options信息（自己公司的接口）
+修改 index.js 里面自己想生成的excel文件名
+执行npm run start 或者执行 node index.js
 
 ```
 支持读写Excel的node.js模块

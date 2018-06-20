@@ -14,7 +14,7 @@ getData().then(function (res) {
         name: 'sheet1',
         data: res
     }]);
-    fs.writeFileSync('punch.xlsx', buffer, {
+    fs.writeFileSync('xxx.xlsx', buffer, {
         'flag': 'w'
     });
     console.log('写入成功');
