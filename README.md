@@ -1,13 +1,14 @@
 # node-excel
+```
 把数据导成excel表格
 拉取代码后
     npm install 
 修改request.js 里面的options信息（自己公司的接口）
 修改 index.js 里面自己想生成的excel文件名
 执行npm run start 或者执行 node index.js
-
 ```
-支持读写Excel的node.js模块
+#支持读写Excel的node.js模块
+```
 node-xlsx: 基于Node.js解析excel文件数据及生成excel文件，仅支持xlsx格式文件；
 excel-parser: 基于Node.js解析excel文件数据，支持xls及xlsx格式文件；
 excel-export : 基于Node.js将数据生成导出excel文件，生成文件格式为xlsx；
